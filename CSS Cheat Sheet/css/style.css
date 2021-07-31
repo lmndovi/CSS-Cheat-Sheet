@@ -1,0 +1,142 @@
+body{
+  background-color: #f4e2f4;
+  font: normal, 20px, Verdana, Geneva, sans-serif;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.button{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.clr{
+  clear: both; /* use to reset the following lines*/
+}
+
+
+a{
+  text-decoration: none;
+  color: black
+}
+/* changing the color of links you hover over */
+a:hover{
+  color: red;
+}
+/* anything after the container will be affected by this code*/
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+.box-1{
+  background-color: #222;
+  color: #fff;
+  border: 10px gold solid;
+  border-width: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box-1 h1{
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.categories{
+  font-family: Verdana;
+  border: 2px yellow groove;
+  padding: 10px;
+  border-radius: 15px;
+  position: relative; /* Use these two lines to move catergory box around */
+  top: 20px;
+}
+
+.categories h2{
+  text-align: center;
+}
+
+.categories ul{
+  list-style: square;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.categories li{
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+  list-style-image: url('../images/check.jpg'); /*insert images*/
+}
+
+.my-form{
+  padding: 20px;
+}
+
+.my-form .form-group{
+  padding-bottom: 15px;
+}
+
+.my-form label{
+  display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding-left: 8px;
+  width: 50%;
+}
+
+.block{
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* use #'s for id's and .'s for classes */
+
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  color: #fff;
+  background-color: #333;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box{
+  width: 800px;
+  height: 500px;
+  margin-top: 30px;
+  border: 1px solid #000;
+  position: relative;
+  background-image: url('../images/bg.jpg'); /*use '..' to come out of the file/folder you are in and access another folder*/
+}
+
+.p-box h1{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.p-box h2{
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}
+
+.fix-me{ /* create fixed object that stays in place despite scrolling*/
+  position: fixed;
+  top: 300px;
+}
